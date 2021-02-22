@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* clases todo el sitio */
+
+.divisionHorizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.divisionHorizontal hr {
+    width: 50%;
+    color: rgb(46, 46, 46);
+    margin: 20px 0px 20px 0px;
+}
+
+/* clases header */
+
+.iconosRedes {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.iconosRedes img {
+    margin: 10px 10px 10px 10px ;
+}
+
+.logoInicio {
+    margin: 30px 10px 10px 10px;
+}
+
+.logoInicio:hover {
+    opacity: 30%;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+}
+
+.menuSuperior {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menuSuperior li a {
+    color: rgb(49, 49, 49);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
+
+.menuSuperior li {
+    list-style: none;
+}
+
+.menuSuperior li a:hover {
+    color: #EE427A;
+}
+
+/* clases títulos y textos */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.textosPaquetes h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.sobreMi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.sobreMi p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.textoSobreMi {
+    width: 650px;
+    align-items: flex-end;
+
+}
+
+.textoSobreMi h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.fotoMia {
+    align-content: flex-start; 
+}
+
+.fotoMia img {
+    width: 200px;
+    margin: 20px 20px 20px 20px;
+}
+
+.paquetesPredis {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(196, 196, 196), rgb(250, 250, 250));
+    padding: 50px 0px 50px 0px;
+}
+
+.textosPaquetes {
+    width: 33%;
+    margin: 0px 0px 10px 0px;
+}
+
+.paquetesPredis p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.paquetesPredis h2 {
+    font-size: 20px;
+}
+
+
+.clientes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.logoCliente {
+    justify-content: center;
+    transform: scale(0.65);
+}
+
+.logoCliente:hover {
+    transform: scale(0.85, 0.85);
+    opacity: 30%;
+}
+
+.tituloClientes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tituloClientes h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+/* clases identidad visual */
+
+.idVisual {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.idVisual h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+}
+
+.idVisual h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+}
+
+.idVisual p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.textoDestacado {
+    color:black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.servicios img {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+
+}
+
+/* clases portfolio */
+.misTrabajos {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.misTrabajos h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.galeriaTrabajos {
+    display: grid;
+    grid-template-areas:
+    "pilates pilates ecocity ecocity"
+    "funky doc ecocity ecocity"
+    "funky doc martons agua"
+    "funky pulse pulse agua";
+    grid-template-columns:  25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 80%;
+    margin: 50px 0px 50px 0px;
+}
+
+.pilates {
+    grid-area: pilates;
+    border: 2px solid grey;
+}
+
+.pilates:hover {
+    opacity: 30%;
+}
+
+.ecocity {
+    grid-area: ecocity;
+    border: 2px solid grey;
+}
+
+.ecocity:hover {
+    opacity: 30%;
+}
+
+.funky {
+    grid-area: funky;
+    border: 2px solid grey;
+}
+
+.funky:hover {
+    opacity: 30%;
+}
+
+.doc {
+    grid-area: doc;
+    border: 2px solid grey;
+}
+.doc:hover {
+    opacity: 30%;
+}
+
+.martons {
+    grid-area: martons;
+    border: 2px solid grey;
+}
+
+.martons:hover {
+    opacity: 30%;
+}
+
+.pulse {
+    grid-area: pulse;
+    border: 2px solid grey;
+}
+
+.pulse:hover {
+    opacity: 30%;
+}
+
+.agua {
+    grid-area: agua;
+    border: 2px solid grey;
+}
+
+.agua:hover {
+    opacity: 30%;
+}
+
+/* clases contacto */
+
+.formulario {
+    margin: 70px 0px 70px 0px;
+    width: 100%;
+}
+
+.formContent {
+    display: flex;
+    justify-content:center;
+    padding: 30px 0px 30px 0px;
+}
+
+.formulario h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #EE427A;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align:center;
+}
+
+/* clases footer */
+
+.footer {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+.footer h2 {
+    font-size: 18px;
+    margin: 15px 0px 15px 0px;
+}
+
+.footer p {
+    line-height: 30px;
+}
+
+.finFooter {
+    background-color:  #EE427A;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
